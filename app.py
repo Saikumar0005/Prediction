@@ -4,11 +4,11 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 
 st.set_page_config(page_title="Disease Prediction", layout="wide")
+working_dir = os.path.dirname(os.path.abspath(__file__))
 
-
-diabetes_model = pickle.load(open(r"./saved-modules/diabetes_model.sav.", 'rb'))
-heart_model = pickle.load(open(r"./saved-modules/heart_disease_model.sav", 'rb'))
-parkinsons_model = pickle.load(open(r"./saved-modules/parkinsons_model.sav", 'rb'))
+diabetes_model = pickle.load(open(f'{working_dir}/saved-modules/diabetes_model.sav', 'rb'))
+heart_model = pickle.load(open(f'{working_dir}/saved-modules/heart_disease_model.sav', 'rb'))
+parkinsons_model = pickle.load(open(f'{working_dir}/saved-modules/parkinsons_model.sav', 'rb'))
 
 with st.sidebar:
     selected_model = option_menu("Disease Prediction",
