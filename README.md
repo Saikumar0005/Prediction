@@ -85,4 +85,4 @@ Thanks to the Streamlit team for providing an easy-to-use framework for building
 
 ## Contact
 
-For any questions or feedback, please contact [Your Name] at [your-email@example.com].
+For any questions or feedback, please contact Sai Kumar Tiruvidhi at tsaikumar70322@gmail.com.
