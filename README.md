@@ -86,3 +86,6 @@ Thanks to the Streamlit team for providing an easy-to-use framework for building
 ## Contact
 
 For any questions or feedback, please contact Sai Kumar Tiruvidhi at tsaikumar70322@gmail.com.
+
+Live Demo-
+https://diseaseprediction-ucnqs8vpkpgpf8obbh8c8v.streamlit.app/
